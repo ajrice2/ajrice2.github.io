@@ -1,0 +1,45 @@
+site_name: ARice Notes
+site_author: Anthony Rice (ajrice2@gmail.com)
+copyright: Copyright 2020 Anthony Rice
+
+site_url: https://ajrice2.github.io/
+site_description: 'Practicing with Github Pages and MkDocs'
+theme: mkdocs
+
+nav:
+  - Home: index.md
+  - About: about.md
+  - 'Example': 'https://example.com/'
+
+theme:
+    name: material
+
+############################################################################
+
+extra_css:
+  - css/extra.css
+  - css/second_extra.css
+
+extra_javascript:
+  - js/extra.js
+
+docs_dir: docs/
+use_directory_urls: true
+
+plugins:
+  - search
+
+############################################################################
+
+## repo_name: ARice Github Repo
+## repo_url: 'https://github.com/ajrice2/ajrice2.github.io'
+
+############################################################################
+# Configurations Not Used
+
+# edit_uri
+# google_analytics
+# remote_branch
+# remote_name
+# strict
+# dev_addr
