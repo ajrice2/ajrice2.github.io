@@ -1,7 +1,0 @@
-site_name: RiceDocs
-theme:
-  name: null
-  custom_dir: 'cinder'
-nav:
-  - Home: index.md
-  - About: about.md
