@@ -13,6 +13,8 @@ theme:
 nav:
   - Home: index.md
   - About: about.md
+  - Cinder Theme: cinderTheme.md
+  - Cinder MD: cinderMD.md
 
 shortcuts:
   help: 191    # ?
