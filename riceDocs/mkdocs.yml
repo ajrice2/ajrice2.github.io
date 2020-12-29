@@ -8,13 +8,25 @@ site_description: 'Practicing with Github Pages and MkDocs'
 theme:
   name: null
   custom_dir: 'cinder'
-  colorscheme: 'dracula'
+  colorscheme: github
+  highlightjs: true
 
 nav:
   - Home: index.md
-  - About: about.md
-  - Cinder Theme: cinderTheme.md
-  - Cinder MD: cinderMD.md
+  - Cinder:
+      - Cinder Theme: cinderTheme.md
+      - Cinder Markdown: cinderMD.md
+  - Companies:
+      - IT Companies: itCompanies.md
+      - Science Companies: scienceCompanies.md
+  - About:
+      - About: about.md
+      - Tony's Courses: tonyCourses.md
+
+markdown_extensions:
+  - admonition
+  - toc:
+      permalink: true
 
 shortcuts:
   help: 191    # ?

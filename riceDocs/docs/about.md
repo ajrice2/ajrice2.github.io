@@ -1,17 +1,57 @@
+#RiceDocs - About
 
+----------------------------------------------------------------------------
 
-# Site Purpose
+## Site Purpose
 
-The **primary** purpose of this site is to have an organized, centralized location for storing documentation and notes for learning programming.
+To create a centralized location for storing IT documentation and notes from classes.  Additionally, I am planning to work on projects beyond the scope of my course work and sharing it on this site.
 
-The **secondary** purpose of this site is to start working on projects beyond the scope of current coursework and to expand upon projects that have previously been completed.
+----------------------------------------------------------------------------
 
-## Projects
+## Site Projects
 
-| Project           | Technologies |              |
-| ----------------- | ---------    | -----------  |
-| Host Static Site  | GitHub Pages |  Title       |
-| Paragraph         |              |  Text        |
+<table>
+  <thead>
+    <th>Goal</th>
+    <th>Technologies</th>
+    <th>Status</th>
+    <th>Discussion Link</th>
+  </thead>
+  <tr>
+    <td>Host Static Site</td>
+    <td>GitHub Pages, MkDocs</td>
+    <td>In-Progress</td>
+    <td class="text-danger ">TODO</td>
+  </tr>
+</table>
+
+----------------------------------------------------------------------------
+
+## Reference Sites
+
+### Markdown
+- **Cheat Sheet** - [A quick reference to the Markdown syntax.](https://www.markdownguide.org/cheat-sheet/)
+- **Download** - [Main web site for Markdown.](https://daringfireball.net/projects/markdown/)
+- **Dingus** - [Experiment with Markdown on the web.](https://daringfireball.net/projects/markdown/dingus)
+- **Table Generator** - [Generate tables in Markdown format.](https://www.tablesgenerator.com/)
+
+### MkDocs
+- **MkDocs** - [Static site generator used for this site.](https://www.mkdocs.org/)
+- **Cinder** - [The MkDoc Theme used for this site.](https://sourcefoundry.org/cinder/)
+
+### GitHub
+- **Pro Git Book** - [Online Textbook for learning Git](https://git-scm.com/book/en/v2)
+
+### Emoji's
+- **Emoiji Copy** - [Add Emoji's to website.](https://www.emojicopy.com/)
+- **Emojipedia** - [Add Emoji's to webiste.](https://emojipedia.org/)
+
+### Other
+- **Mike DeMaso MkDocs** - [MkDocs Setup Example](https://mikedemaso.com/tech/2019-06-20-setting-up-mkdocs/)
+
+----------------------------------------------------------------------------
+
+## Random Items to Use Later
 
 
 * `mkdocs new [dir-name]` - Create a new project.
@@ -19,50 +59,40 @@ The **secondary** purpose of this site is to start working on projects beyond th
 * `mkdocs build` - Build the documentation site.
 * `mkdocs help` - Print this help message.
 
-## Project layout
+### Project layout
 
     mkdocs.yml    # The configuration file.
     docs/
         index.md  # The documentation homepage.
         ...       # Other markdown pages, images and other files.
 
-## ARice Course Schedule and History
+        ## Site File Structure Example
 
-###
+        ```
+        riceDocs
+        │   README.md
+        │   file001.txt    
+        │
+        └───folder1
+        │   │   file011.txt
+        │   │   file012.txt
+        │   │
+        │   └───subfolder1
+        │       │   file111.txt
+        │       │   file112.txt
+        │       │   ...
+        │   
+        └───folder2
+            │   file021.txt
+            │   file022.txt
+        index.html
+        README.md
+        ```
 
-### ARice Course Progress
-
-| Course | Status | Degree |
-| :------ | :------ | :------ |
-| Website Development | Completed ✅ | Web Dev |
-| Intro to Databases | Completed ✅ | Web Dev |
-| Exploration of IT | Completed ✅ | Web Dev |
-| IT Security Awareness | Completed ✅ | Web Dev |
-| Intro to Prog with JavaScript | Completed ✅ | Web Dev |
-| SQL Database Programming | Completed ✅ | Web Dev |
-| Java Programming | Completed ✅ | Web Dev |
-| PHP Web Development with MySQL | Completed ✅ | Web Dev |
-| Advanced PHP and MySQL Web Development | Completed ✅ | Web Dev |
-| Advanced CSS | Completed ✅ | Web Dev |
-| UI/UX Development | Completed ✅ | Web Dev |
-| Advanced Java | Completed ✅ | Web Dev |
-| Enterprise Java | In-Progress ✏️ | Web Dev |
-| Advanced JavaScript | Pending 📅 | Web Dev |
-| Agile Practices | Pending 📅 | Web Dev |
-| Web Dev Internship | Pending 📅 | Web Dev |
-| Cloud For Developers | Pending 📕 | Front End|
-| JS Frameworks | Pending 📕 | Front End |
-| Advanced Cloud for Developers | Pending 📕 | Front End |
-| Advanced Front End Development | Pending 📕 | Front End |
-| Web Software Dev Internship| Pending 📕 | Front End |
-
-### Additional Courses
-
-| Course | Status | Degree |
-| :------ | :------ | :------ |
-| C# Web Development using ASP.NET | Pending 📅 | Web Dev |
-| Big Data Fundamentals | Pending 📘 | Big Data |
-| Advanced Big Data Topics | Pending 📘 | Big Data |
-| Python Programming | Pending 📙| Other |
-| Linux Server 1 | Pending 📙| Other |
-| Linux Server 2 | Pending 📙| Other |
+        ```
+        {
+        "firstName": "John",
+        "lastName": "Smith",
+        "age": 25
+        }
+        ```
