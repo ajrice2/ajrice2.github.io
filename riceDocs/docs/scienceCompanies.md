@@ -30,11 +30,13 @@
 **Note:** If any additional companies need to be added or if you would like to see additional columns added to the page, just let me know and I can make those updates.
 
 -----------------------------------------------------------------------------
-### Biotech Profiles
-There used to be a website called 'http://www.biotechprofiles.com/madisonCompanies/' that listed all of the biotech companies in Madison and provided all sorts of additional information, such as the company's purpose, their number of employees (both locally and globally), etc.
 
------------------------------------------------------------------------------
 ### BioForward Wisconsin
 Many of the biotech companies in Wisconsin are members of **BioForward**, which is an organization that promotes the growth of Wisconsin's biohealth industry.  In the [membership](https://www.bioforward.org/membership-directory/#!directory/map) page, you can find a lot more companies than what is listed on this page.
+
+-----------------------------------------------------------------------------
+
+### Biotech Profiles
+There used to be a website called 'http://www.biotechprofiles.com/madisonCompanies/' that listed all of the biotech companies in Madison and provided all sorts of additional information, such as the company's purpose, their number of employees (both locally and globally), etc.
 
 -----------------------------------------------------------------------------
