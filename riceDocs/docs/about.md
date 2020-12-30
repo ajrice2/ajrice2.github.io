@@ -51,6 +51,19 @@ To create a centralized location for storing IT documentation and notes from cla
 
 ----------------------------------------------------------------------------
 
+## Steps for Updating GitHub Pages
+
+1. Make updates to your web site.
+2. In the terminal, go to the folder containing mkdocs.yml and type 'mkdocs build'.
+3. In the terminal, navigate to the github.io folder and add/commit/push changes to github.
+  - 'git status' (confirm changes were made)
+  - 'git add .' (select the files to commit)
+  - 'git commit -am' (document changes that were made)
+  - 'git push' (push the code to github)
+
+
+----------------------------------------------------------------------------
+
 ## Random Items to Use Later
 
 
